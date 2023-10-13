@@ -1,8 +1,9 @@
- django-admin startproject <projectName> .
- python manage.py runserver
-
+django-admin startproject <projectName> .
 django-admin startapp <appName>
 
- python manage.py migrate
+python manage.py runserver
+python manage.py migrate
+python manage.py makemigrations
+python manage.py shell
 
  DQj5qn*PThuSyi$
