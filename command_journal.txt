@@ -6,4 +6,12 @@ python manage.py migrate
 python manage.py makemigrations
 python manage.py shell
 
+=== Install Poetry ===
+curl -sSL https://install.python-poetry.org | python3 -
+poetry --version
+poetry new mysite
+poetry add django
+poetry run django-admin startproject mysite .
+poetry run ./manage.py runserver
+
 DQj5qn*PThuSyi$
