@@ -6,4 +6,4 @@ python manage.py migrate
 python manage.py makemigrations
 python manage.py shell
 
- DQj5qn*PThuSyi$
+DQj5qn*PThuSyi$

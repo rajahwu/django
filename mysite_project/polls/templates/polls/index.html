@@ -1,12 +1,13 @@
 {% load static %}
 <html>
   <head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <link rel="stylesheet" href="{% static 'polls/style.css' %}" />
   </head>
   <body>
     <div>
       {% if latest_question_list %}
-      <ul>
+      <ul class="list">
         {% for question in latest_question_list %}
         <li>
           <a href="{% url 'polls:detail' question.id %}"
